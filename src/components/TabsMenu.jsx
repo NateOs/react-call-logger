@@ -1,18 +1,20 @@
 import React from "react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import Homepage from "../pages/Homepage";
 
 function TabsMenu() {
   return (
     <div>
       <Tabs>
         <TabList>
-          <Tab>One</Tab>
-          <Tab>Two</Tab>
-          <Tab>Three</Tab>
+          <Tab>Calls</Tab>
+          <Tab>Logs</Tab>
+          <Tab>User Profile</Tab>
         </TabList>
 
         <TabPanels>
           <TabPanel>
+            <Homepage />
             <p>one!</p>
           </TabPanel>
           <TabPanel>

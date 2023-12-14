@@ -1,12 +1,8 @@
 // App.jsx
-import TabsMenu from "./components/TabsMenu";
+import Homepage from "./pages/Homepage";
 
 function App() {
-  return (
-    <div className="m-10">
-      <TabsMenu></TabsMenu>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
