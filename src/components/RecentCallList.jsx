@@ -15,6 +15,7 @@ function RecentCallsList() {
   return (
     <div>
       <div>
+        <h1>Recent Calls</h1>
         <TableContainer>
           <Table variant="simple">
             <TableCaption>Imperial to metric conversion factors</TableCaption>

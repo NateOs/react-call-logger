@@ -6,16 +6,17 @@ import {
   FormErrorMessage,
   FormHelperText,
 } from "@chakra-ui/react";
+
 function FormComponent() {
   return (
-    <div>
+    <div className="mb-5">
       <FormControl>
         <FormLabel>Customer name</FormLabel>
         <Input type="text" placeholder="John Doe" />
       </FormControl>
       <FormControl>
         <FormLabel>Caller phone</FormLabel>
-        <Input type="text" placeholder="John Doe" />
+        <Input type="tel" placeholder="+233 123 456 760" />
       </FormControl>
       <FormControl>
         <FormLabel>Issue description</FormLabel>

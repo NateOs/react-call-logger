@@ -1,11 +1,13 @@
 import "./App.css";
-import { ChakraProvider } from "@chakra-ui/react";
 import Tabs from "./components/TabsMenu";
+
 function App() {
   return (
     <>
+      <div className="m-5">
       <Tabs></Tabs>
 
+      </div>
     </>
   );
 }
